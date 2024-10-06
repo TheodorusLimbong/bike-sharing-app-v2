@@ -3,10 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 # # Load cleaned data
-# cleaned_day = pd.read_csv(r"C:\submission\dashboard\cleaned_day.csv")
-# cleaned_hour = pd.read_csv(r"C:\submission\dashboard\cleaned_hour.csv")
-cleaned_day = pd.read_csv("cleaned_day.csv")
-cleaned_hour = pd.read_csv("cleaned_hour.csv")
+cleaned_day = pd.read_csv("dashboard/cleaned_day.csv")
+cleaned_hour = pd.read_csv("dashboard/cleaned_hour.csv")
 
 # Convert 'dteday' to datetime
 cleaned_day['dteday'] = pd.to_datetime(cleaned_day['dteday'])
