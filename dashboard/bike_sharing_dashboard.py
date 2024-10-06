@@ -13,7 +13,7 @@ cleaned_hour['dteday'] = pd.to_datetime(cleaned_hour['dteday'])
 # Dashboard Title
 st.title("Bike Sharing Dashboard")
 
-st.sidebar.image("bike-removebg-preview.png", use_column_width=True)
+st.sidebar.image("dashboard/bike-removebg-preview.png", use_column_width=True)
 
 # Add a date range filter
 st.sidebar.header("Date Range Filter")
